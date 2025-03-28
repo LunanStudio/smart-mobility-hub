@@ -21,7 +21,6 @@ The tech stack used to create this application are the following:
 - WebSocket: A continuous and simultaneous communication between client and server for real-time updates
 - Redis: Database used to cache location data
 - PostgreSQL: Database that allows to store longer lasting data such as routes and user info
-- PostGIS: A PostgreSQL tool used to sotre, index, and query geospatial data
 
 # Screenshots
 
