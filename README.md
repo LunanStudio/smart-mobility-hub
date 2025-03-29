@@ -1,4 +1,4 @@
-# Smart Mobility Hub\
+# Smart Mobility Hub
 
 The **Smart Mobility Hub** is an enhanced version of the YOVOY app, designed to overcome its limitations, such as slow startup times, sluggish bus location updates, and unintuitive route selection. Our goal is to provide a faster, more reliable, and feature-rich transportation experience for users and administrators alike.
 
@@ -20,7 +20,7 @@ The **Smart Mobility Hub** is an enhanced version of the YOVOY app, designed to 
 - Manage payment inventory
 - Report and track delays
 
-## Tech Stack\
+## Tech Stack
 
 We use cutting-edge technology to ensure a smooth and efficient experience:
 
@@ -45,7 +45,7 @@ We use cutting-edge technology to ensure a smooth and efficient experience:
 
 ## How to Contribute
 
-We welcome contributions! Follow these steps to get started:\
+We welcome contributions! Follow these steps to get started:
 
 ### Prerequisites
 
