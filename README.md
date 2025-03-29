@@ -1,35 +1,159 @@
-
 # Smart Mobility Hub
-The smart mobility hub is an improvement on the YOVOY app which addresses the slow start up time, slow bus location updates, and unintuitive route selection. This app also aims to add more features for users to benefit from such as:
-- Add funds
-- Pay with apple pay/google wallet
-- Show near by busses
-- Show the routes to take to reach a wanted destination
-- Display estimated time of arrival for the bus
-- Display estimated time of arrival to destination
-and features on the administration side such as:
-- Download statistics
-- Bus monitoring
-- Keep payment inventory
-- Report delays
 
-# Tech Stack
-The tech stack used to create this application are the following:
-- Turborepo: To create a monorepo to be able to run both frontend and backend
-- Expo: A react-native tool used to compile to both ios and android
-- NestJS: Backend framework
-- WebSocket: A continuous and simultaneous communication between client and server for real-time updates
-- Redis: Database used to cache location data
-- PostgreSQL: Database that allows to store longer lasting data such as routes and user info
 
-# Screenshots
 
-# How to contribute
-To start contributing to the project first it is necessary to install some tools
-1. Install pnpm using `npm install -g pnpm@latest-10`
-2. install Turborepo using `npm install turbo --global`
+The **Smart Mobility Hub** is an enhanced version of the YOVOY app, designed to overcome its limitations, such as slow startup times, sluggish bus location updates, and unintuitive route selection. Our goal is to provide a faster, more reliable, and feature-rich transportation experience for users and administrators alike.
 
-Thanks to Turborepo the set up is easy.
-1. Make sure you're in the root directory "smart-mobility-hub"
-2. Install the packages with `pnpm i`
-3. Once the packages have installed run the project with `turbo run dev`
+
+
+
+## Features
+
+### For Users:
+
+- Add funds to your account
+
+- Pay seamlessly with Apple Pay/Google Wallet
+
+- Locate nearby buses in real-time
+
+- Find the best routes to reach your destination
+
+- See estimated arrival times for buses
+
+- Track your ETA to your destination
+
+
+
+
+### For Administrators:
+
+- Download usage statistics
+
+- Monitor bus activity in real-time
+
+- Manage payment inventory
+
+- Report and track delays
+
+
+
+
+---
+
+
+
+
+## Tech Stack
+
+We use cutting-edge technology to ensure a smooth and efficient experience:
+
+
+
+
+- **Turborepo** – Manages the monorepo structure for both frontend and backend.
+
+- **Expo** – A React Native tool for compiling iOS and Android apps.
+
+- **NestJS** – A scalable backend framework.
+
+- **WebSockets** – Enables real-time updates between the client and server.
+
+- **Redis** – Caches location data for faster retrieval.
+
+- **PostgreSQL** – Stores persistent data like routes and user information.
+
+
+
+
+---
+
+
+
+
+## Screenshots
+
+<img src="https://i.imgur.com/dAsNUds.png" width="200" alt="Splash screen">
+
+<img src="https://i.imgur.com/lFIifhr.png" width="200" alt="Screenshot 1">
+
+<img src="https://i.imgur.com/IXIhXZF.png" width="200" alt="Screenshot 2">
+
+<img src="https://i.imgur.com/yQKa3Am.png" width="200" alt="Screenshot 3">
+
+<img src="https://i.imgur.com/XVPICYu.png" width="200" alt="Screenshot 4">
+
+<img src="https://i.imgur.com/O9Xxnow.png" width="200" alt="Screenshot 5">
+
+<img src="https://i.imgur.com/jFkoMM2.png" width="200" alt="Screenshot 6">
+
+<img src="https://i.imgur.com/kY3U3rZ.png" width="200" alt="Screenshot 7">
+
+<img src="https://i.imgur.com/lfPETWv.png" width="200" alt="Screenshot 8">
+
+
+
+
+---
+
+
+
+
+## How to Contribute
+
+We welcome contributions! Follow these steps to get started:
+
+
+
+
+### Prerequisites
+
+1. Install **pnpm**:  
+
+   ```sh
+
+   npm install -g pnpm@latest-10
+
+   ```
+
+2. Install **Turborepo**:  
+
+   ```sh
+
+   npm install turbo --global
+
+   ```
+
+
+
+
+### Setup
+
+1. Navigate to the root directory:  
+
+   ```sh
+
+   cd smart-mobility-hub
+
+   ```
+
+2. Install dependencies:  
+
+   ```sh
+
+   pnpm i
+
+   ```
+
+3. Start the project:  
+
+   ```sh
+
+   turbo run dev
+
+   ```
+
+
+
+
+Enjoy coding!
